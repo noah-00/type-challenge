@@ -2,6 +2,9 @@
   "name": "type-challenge",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
