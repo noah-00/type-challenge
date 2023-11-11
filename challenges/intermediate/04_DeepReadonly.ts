@@ -9,7 +9,7 @@ type X = {
 type Expected = {
   readonly x: {
     readonly a: 1;
-    readonly b: "hi";
+    readb: "hi";
   };
   readonly y: "hey";
 };
