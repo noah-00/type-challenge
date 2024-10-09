@@ -5,7 +5,7 @@ interface Todo {
 }
 
 type MyPick<T, U extends keyof T> = {
-  [P in U]: T[U];
+  [k in U]: T[k];
 };
 
 type TodoPreview = MyPick<Todo, "title" | "completed">;
